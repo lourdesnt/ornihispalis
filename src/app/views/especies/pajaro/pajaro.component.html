@@ -1,0 +1,13 @@
+<app-common-navbar></app-common-navbar>
+<div class="nb" style="padding: 2%;"></div>
+<div class="perfil"><img src={{pajaro.header}} style="width: 100%;"></div>
+<div class="container">
+    <h3><b>{{pajaro.nombre}}</b></h3>
+    <hr class="solid">
+    <div class="row m-3">
+        <p>{{pajaro.info}}</p>
+    </div>
+    <div class="row justify-content-center m-3">
+        <button type="button" class="btn btn-success" (click)="goBack()">Ver todas las especies</button>
+    </div>
+</div>

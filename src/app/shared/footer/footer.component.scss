@@ -1,0 +1,53 @@
+footer {
+    background-color: #78C7A0;
+    color: white;
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0%;
+}
+
+.row {
+    margin:0;
+    width: 100%;
+}
+
+.col-md-m3 {
+    padding: 0%;
+}
+
+.col-md {
+    padding: 0%;
+}
+
+#contact {
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    display:block;
+    text-align: left;
+}
+
+img {
+    width: 4cm;
+    display:block;
+    align-content: center;
+    margin: 0% 10% 0% 10%;
+}
+
+.links {
+    list-style:none;
+}
+
+.links li {
+    padding: 2%;
+    width: 100%;
+}
+
+a{
+    width: max-content;
+}

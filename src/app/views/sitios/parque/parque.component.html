@@ -1,0 +1,41 @@
+<app-common-navbar></app-common-navbar>
+<div class="nb" style="padding: 2%;"></div>
+<div class="perfil"><img src={{parque.img}} style="width: 100%;"></div>
+<div class="container">
+    <h3><b>{{parque.nombre}}</b></h3>
+    <hr class="solid">
+    <div class="row m-3">
+        <p>{{parque.info}}</p>
+    </div>
+    <div class="row justify-content-center">
+        <h6>Especies que podemos encontrar:</h6>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-2 m-3 justify-content-center">
+            <a [RouterLink]="['/especies', especiesExistentes[0].id]" routerLink="/especies/{{especiesExistentes[0].id}}"><img src={{especiesExistentes[0].img}} class="pajaros"></a>
+            <p>{{especiesExistentes[0].nombre}}</p>
+        </div>
+        <div class="col-md-2 m-3">
+            <a [RouterLink]="['/especies', especiesExistentes[1].id]" routerLink="/especies/{{especiesExistentes[1].id}}"><img src={{especiesExistentes[1].img}} class="pajaros"></a>
+            <p>{{especiesExistentes[1].nombre}}</p>
+        </div>
+        <div class="col-md-2 m-3">
+            <a [RouterLink]="['/especies', especiesExistentes[2].id]" routerLink="/especies/{{especiesExistentes[2].id}}"><img src={{especiesExistentes[2].img}} class="pajaros"></a>
+            <p>{{especiesExistentes[2].nombre}}</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-2 m-3">
+            <a [RouterLink]="['/especies', especiesExistentes[3].id]" routerLink="/especies/{{especiesExistentes[3].id}}"><img src={{especiesExistentes[3].img}} class="pajaros"></a>
+        </div>
+        <div class="col-md-2 m-3">
+            <a [RouterLink]="['/especies', especiesExistentes[4].id]" routerLink="/especies/{{especiesExistentes[4].id}}"><img src={{especiesExistentes[4].img}} class="pajaros"></a>
+        </div>
+        <div class="col-md-2 m-3">
+            <a [RouterLink]="['/especies', especiesExistentes[5].id]" routerLink="/especies/{{especiesExistentes[5].id}}"><img src={{especiesExistentes[5].img}} class="pajaros"></a>
+        </div>
+    </div>
+    <div class="row justify-content-center m-3">
+        <button type="button" class="btn btn-success" (click)="goBack()">Volver al mapa</button>
+    </div>
+</div>

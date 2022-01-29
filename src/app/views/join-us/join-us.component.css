@@ -1,0 +1,14 @@
+.card {
+    background-color: #C8D5B9;
+}
+
+h3 {
+    color: #4A7C59;
+    text-align: center;
+}
+
+.val {
+    color: red;
+    font-size: 12px;
+    padding: 3px;
+}

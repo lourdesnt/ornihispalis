@@ -1,0 +1,23 @@
+[
+    {
+        "id":"mluisa",
+        "nombre":"Parque de Maria Luisa",
+        "img":"/assets/img/mluisa.jpg",
+        "info":"El parque de María Luisa es el primer parque urbano de Sevilla (Andalucía, España) y uno de sus pulmones verdes. En 1983 fue declarado Bien de Interés Cultural en la categoría de Jardín Histórico.3 Se inauguró el 18 de abril de 1914 como parque urbano Infanta María Luisa Fernanda. Estos espacios, que en principio formaban parte de los jardines privados del palacio de San Telmo, fueron donados en 1893 por la infanta María Luisa Fernanda de Borbón, esposa del duque de Montpensier, a la ciudad. Las plazas de España y de América, construidas para la Exposición Iberoamericana de 1929, están integradas en el parque como en un jardín público y constituyen uno de los principales atractivos.",
+        "especies":["Gorrión común", "Tórtola turca", "Ánade real", "Cotorra de Kramer", "Mirlo común", "Grajilla"]
+    },
+    {
+        "id":"alcazar",
+        "nombre":"Jardines del Alcázar",
+        "img":"/assets/img/alcazar.jpg",
+        "info":"Los jardines constituyen un elemento fundamental del Alcázar. Son los más antiguos de la ciudad y desde su creación han sufrido grandes alteraciones que han transformado su trazado primitivo.​ En la Baja Edad Media había configurado un Alcázar con edificios de distintas épocas, pequeños patios ajardinados y grandes huertas.​ Fueron reformados en el siglo XVI y a comienzos del siglo XVII, conservando como herencia musulmana el concepto de jardines compartimentados sin ninguna vinculación entre ellos, al igual que lo habitual de las fuentes bajas, los azulejos y los naranjos.",
+        "especies":["Gorrión común", "Tórtola turca", "Ánade real", "Mirlo común", "Cotorra de Kramer", "Pavo real"]
+    },
+    {
+        "id":"alamillo",
+        "nombre":"Parque del Alamillo",
+        "img":"/assets/img/alamillo.jpg",
+        "info":"Se trata de un parque nacional con un terreno relativamente llano, aunque con leves ondulaciones.2 Hay especies que son propias de un bosque de ribera mediterráneo: sauces (salix atrocinera), álamos (populus alba), chopos (populus nigra), olmos (olmus minor) y fresnos (fraxinus angustifolia). También hay acebuches (olea europaea variedad sylvestris), algarrobos (ceratonia siliqua), alcornoques (quercus suber) y pinos (pinus pinea).​ En otras zonas se aprecia el bosque andaluz por antonomasia: el encinar. Antes de que se extendieran los cultivos, la mayor parte de la masa forestal andaluza estaba constituida por bosques espesos de encinas (quercus rotundifolia).​ También destaca la presencia de madroños (arbutus unedo). Entre las cuarenta variedades que son habituales en el parque también hay céspedes, que crean una pradera natural, y muchas variedades de arbustos. En el año 2014 se añadió al parque un naranjal de 40 hectáreas.",
+        "especies":["Aguililla calzada", "Mirlo común", "Tórtola turca", "Ánade real", "Gorrión común", "Cotorra de Kramer"]
+    }
+]
