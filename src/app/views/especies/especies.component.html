@@ -1,5 +1,5 @@
 <app-common-navbar></app-common-navbar>
-<div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/birds_header.jpg');">
+<div class="page-header page-header-xs" data-parallax="true" id="especies" style="background-image: url('./assets/img/birds_header.jpg');">
     <div class="container">
         
     </div>
@@ -10,37 +10,37 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 m-3">
-                <a [RouterLink]="['/especies', pajarosList[0].id]" routerLink="/especies/anade"><img id="anade" src="/assets/img/anade.png"></a>
+                <a [RouterLink]="['/especies', pajarosList[0].id]" routerLink="/especies/anade" title="Ánade real"><img id="anade" src="/assets/img/anade.png"></a>
                 <div class="text"><p>Ánade real</p></div>
             </div>
             <div class="col-md-2 m-3">
-                <a [RouterLink]="['/especies', pajarosList[1].id]" routerLink="/especies/aguililla"><img id="aquila" src="/assets/img/aquila_tb.jpg"></a>
+                <a [RouterLink]="['/especies', pajarosList[1].id]" routerLink="/especies/aguililla" title="Aguililla calzada"><img id="aquila" src="/assets/img/aquila_tb.jpg"></a>
                 <div class="text"><p>Aguililla calzada</p></div>
             </div>
             <div class="col-md-2 m-3">
-                <a [RouterLink]="['/especies', pajarosList[2].id]" routerLink="/especies/cotorra"><img id="cotorra" src="/assets/img/cotorra.png"></a>
+                <a [RouterLink]="['/especies', pajarosList[2].id]" routerLink="/especies/cotorra" title="Cotorra de Kramer"><img id="cotorra" src="/assets/img/cotorra.png"></a>
                 <div class="text"><p>Cotorra de Kramer</p></div>
             </div>
             <div class="col-md-2 m-3">
-                <a [RouterLink]="['/especies', pajarosList[3].id]" routerLink="/especies/gorrion"><img id="gorrion.png" src="/assets/img/gorrion.png"></a>
+                <a [RouterLink]="['/especies', pajarosList[3].id]" routerLink="/especies/gorrion" title="Gorrión común"><img id="gorrion.png" src="/assets/img/gorrion.png"></a>
                 <div class="text"><p>Gorrión común</p></div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2 m-3 justify-content-center">
-                <a [RouterLink]="['/especies', pajarosList[4].id]" routerLink="/especies/grajilla"><img id="grajilla" src="/assets/img/grajilla.png"></a>
+                <a [RouterLink]="['/especies', pajarosList[4].id]" routerLink="/especies/grajilla" title="Grajilla"><img id="grajilla" src="/assets/img/grajilla.png"></a>
                 <div class="text"><p>Grajilla</p></div>
             </div>
             <div class="col-md-2 m-3 justify-content-center">
-                <a [RouterLink]="['/especies', pajarosList[5].id]" routerLink="/especies/mirlo"><img id="mirlo" src="/assets/img/mirlo_tb.jpg"></a>
+                <a [RouterLink]="['/especies', pajarosList[5].id]" routerLink="/especies/mirlo" title="Mirlo común"><img id="mirlo" src="/assets/img/mirlo_tb.jpg"></a>
                 <div class="text"><p>Mirlo común</p></div>
             </div>
             <div class="col-md-2 m-3 justify-content-center">
-                <a [RouterLink]="['/especies', pajarosList[6].id]" routerLink="/especies/pavo"><img id="pavo" src="/assets/img/pavoreal.jpg"></a>
+                <a [RouterLink]="['/especies', pajarosList[6].id]" routerLink="/especies/pavo" title="Pavo real"><img id="pavo" src="/assets/img/pavoreal.jpg"></a>
                 <div class="text"><p>Pavo real</p></div>
             </div>
             <div class="col-md-2 m-3 justify-content-center">
-                <a [RouterLink]="['/especies', pajarosList[7].id]" routerLink="/especies/tortola"><img id="tortola" src="/assets/img/tortola.jpg"></a>
+                <a [RouterLink]="['/especies', pajarosList[7].id]" routerLink="/especies/tortola" title="Tórtola turca"><img id="tortola" src="/assets/img/tortola.jpg"></a>
                 <div class="text"><p>Tórtola turca</p></div>
             </div>
         </div>

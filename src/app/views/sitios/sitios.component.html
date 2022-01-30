@@ -1,5 +1,5 @@
 <app-common-navbar></app-common-navbar>
-<div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/places_header.jpg');">
+<div class="page-header page-header-xs" data-parallax="true" id="sitios" style="background-image: url('./assets/img/places_header.jpg');">
     <div class="container">
         
     </div>
@@ -11,7 +11,7 @@
         <h6>¡Pulsa sobre el lugar para obtener más información!</h6>
         <img src="/assets/img/mapa.jpeg" usemap="#image-map" id="map">
         <map name="image-map">
-            <a [RouterLink]="['/sitios', parquesList[0].id]" routerLink="/sitios/mluisa"><area target="" alt="Parque de María Luisa" title="Paruqe de María Luisa" coords="801,207,740,128" shape="rect"></a>
+            <a [RouterLink]="['/sitios', parquesList[0].id]" routerLink="/sitios/mluisa"><area target="" alt="Parque de María Luisa" title="Parque de María Luisa" coords="801,207,740,128" shape="rect"></a>
             <a [RouterLink]="['/sitios', parquesList[1].id]" routerLink="/sitios/alcazar"><area target="" alt="Real Alcázar" title="Real Alcázar" coords="631,146,692,224" shape="rect"></a>
             <a [RouterLink]="['/sitios', parquesList[2].id]" routerLink="/sitios/alamillo"><area target="" alt="Parque del Alamillo" title="Parque del Alamillo" coords="91,221,154,299" shape="rect"></a>
         </map>
